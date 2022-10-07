@@ -1,0 +1,50 @@
+/*font-family: 'Poppins', sans-serif; 'Noto Serif', serif;*/
+
+html{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold 700;
+  text-transform: uppercase;
+  color: #FF4500;
+  font-size: 90px;
+}
+
+h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+h4{
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
+}
+
+p{
+  font-size: 18px;
+  font-family: "Noto Serif", serif;
+}
+
+body {
+  background-color: #FFDAB9;
+  max-width: 500px;
+}
+
+a{
+  color: 	#8B0000;
+}
+
+img {
+  align-items: center;
+}
+
+nav{
+  background-color: #FFA07A;
+}
