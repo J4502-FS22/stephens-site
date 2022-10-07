@@ -10,7 +10,7 @@ html{
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-weight: bold 700;
+  font-weight: 700;
   text-transform: uppercase;
   color: #FF4500;
   font-size: 90px;
@@ -47,4 +47,5 @@ img {
 
 nav{
   background-color: #FFA07A;
+  font-size: 16px;
 }
