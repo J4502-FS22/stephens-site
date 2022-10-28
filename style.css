@@ -20,6 +20,7 @@ h2{
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 50px;
+  color: #FFFFFF;
 }
 
 h4{
@@ -30,6 +31,13 @@ h4{
 p{
   font-size: 18px;
   font-family: "Noto Serif", serif;
+  color: #000000;
+}
+
+ol li {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
 }
 
 body {
@@ -43,9 +51,18 @@ a{
 
 img {
   align-items: center;
+  width: 300px;
+  margin: 0px;
+  display: flex;
+  flexi-direction: column;
 }
 
 nav{
   background-color: #FFA07A;
   font-size: 16px;
+}
+
+Footer{
+  background-color: #FF4500;
+  font-family: "Noto Serif", serif;
 }
