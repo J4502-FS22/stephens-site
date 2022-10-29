@@ -100,4 +100,5 @@ Footer{
     .text-holder {
       width: 50%;
     }
-/*validation is giving me parse error on line 102 with no explanation*/
+  }
+/*validation is giving me parse error on line 103 with no explanation, but will give me two unexplained parse errors if I remove this brakcet*/
