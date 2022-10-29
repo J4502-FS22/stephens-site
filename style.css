@@ -82,22 +82,22 @@ Footer{
 }
 
 /*media 555px wide*/
-@media (min-width: 555px)
-  .media-holder: {
+@media (min-width: 555px){
+  .media-holder {
     flex-direction: row;
   }
-  .image-holder: {
+  .image-holder {
     flex-direction: row;
     margin: 4rem 0;
     width: 25%;
   }
-
 /*media 800px*/
-@media (min-width: 800px)
-    .image-holder: {
+@media (min-width: 800px){
+    .image-holder {
       flex-direction: row;
       width: 50%;
     }
     .text-holder {
       width: 50%;
     }
+/*validation is giving me parse error on line 102 with no explanation*/
