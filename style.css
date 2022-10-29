@@ -54,7 +54,7 @@ img {
   width: 300px;
   margin: 0px;
   display: flex;
-  flexi-direction: column;
+  flex-direction: row;
 }
 
 nav{
@@ -66,3 +66,38 @@ Footer{
   background-color: #FF4500;
   font-family: "Noto Serif", serif;
 }
+
+/*mobile default*/
+.media-holder {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+.image-holder .text-holder {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+/*media 555px wide*/
+@media (min-width: 555px)
+  .media-holder: {
+    flex-direction: row;
+  }
+  .image-holder: {
+    flex-direction: row;
+    margin: 4rem 0;
+    width: 25%;
+  }
+
+/*media 800px*/
+@media (min-width: 800px)
+    .image-holder: {
+      flex-direction: row;
+      width: 50%;
+    }
+    .text-holder {
+      width: 50%;
+    }
