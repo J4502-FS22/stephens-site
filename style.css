@@ -100,6 +100,14 @@ Footer{
   width: 100%;
 }
 
+.gallery-image {
+  
+}
+
+.gallery-image img{
+  width: 100%;
+}
+
 /*media 555px wide*/
 @media (min-width: 555px){
   .media-holder {
@@ -110,6 +118,7 @@ Footer{
     margin: 4rem 0;
     width: 25%;
   }
+}
 /*media 800px*/
 @media (min-width: 800px){
     .image-holder {
@@ -120,4 +129,3 @@ Footer{
       width: 50%;
     }
   }
-/*validation is giving me parse error on line 103 with no explanation, but will give me two unexplained parse errors if I remove this brakcet*/
