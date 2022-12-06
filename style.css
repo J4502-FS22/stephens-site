@@ -12,7 +12,7 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #5B2C6F;
+  color: #8B0000;
   font-size: 90px;
 }
 
@@ -20,7 +20,7 @@ h2{
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 50px;
-  color: #943126;
+  color: #5B2C6F;
 }
 
 h3{
@@ -44,7 +44,7 @@ p{
 ol li {
   font-family: "Poppins", sans-serif;
   font-size: 30px;
-  color: #943126;
+  color: #5B2C6F;
 }
 
 body {
