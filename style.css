@@ -50,11 +50,20 @@ a{
   color: 	#8B0000;
 }
 
-nav{
+nav {
   background-color: #FFFFFF;
   font-size: 14px;
   display: block;
   padding: 0;
+  margin: 0;
+  border-bottom: 3px solid #FFDAB9;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 ul li {
@@ -70,6 +79,20 @@ ol li {
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   color: #5B2C6F;
+}
+
+.active {
+  background-color: #FF4500;
+  color: #000;
+  padding: 0.025rem;
+}
+
+nav a {
+  color: #8B0000;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
@@ -126,6 +149,25 @@ Footer{
   width: 100%;
 }
 
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+}
+
+.skip-link:focus{
+  width: unset;
+  height: unset;
+  position: relative;
+  padding: unset;
+  margin: unset;
+  font-size: 2rem;
+}
+
 /*media 555px wide*/
 @media (min-width: 555px){
   .media-holder {
@@ -136,6 +178,7 @@ Footer{
     margin: 4rem 0;
     width: 25%;
   }
+
 }
 /*media 800px*/
 @media (min-width: 800px){
@@ -145,11 +188,4 @@ Footer{
     }
     .text-holder {
       width: 50%;
-    }
   }
-
-.active {
-  background-color: #FF4500;
-  color: #000;
-  padding: 0.025rem;
-}
