@@ -50,6 +50,7 @@ a{
   color: #8B0000;
 }
 
+/*nav bar*/
 nav {
   background-color: #FFFFFF;
   font-size: 14px;
@@ -100,6 +101,7 @@ nav a {
 a {
   text-decoration: none;
 }
+/*end nav*/
 
 img {
   align-items: center;
@@ -160,6 +162,7 @@ figcaption {
   width: 100%;
 }
 
+/*skip link styles*/
 .skip-link {
   position: absolute;
   width: 1px;
