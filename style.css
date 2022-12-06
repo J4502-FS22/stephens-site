@@ -114,6 +114,11 @@ Footer{
   font-family: "Noto Serif", serif;
 }
 
+figcaption {
+  font-family: "Noto Serif", serif;
+  font-size: 14px;
+}
+
 /*mobile default*/
 .media-holder {
   width: 100%;
