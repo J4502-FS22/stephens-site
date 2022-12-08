@@ -184,6 +184,32 @@ figcaption {
   font-size: 2rem;
 }
 
+/*photo gallery styles*/
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hideThis {
+  display: none;
+}
+
+button {
+  background-color: #CBC3E3;
+  border: none;
+  color: #5B2C6F;
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  display: block;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
 /*media 555px wide*/
 @media (min-width: 555px){
   .media-holder {
