@@ -210,6 +210,12 @@ button {
   padding: 1rem;
 }
 
+figcaption {
+  font-size: 16px;
+  font-family: "Noto Serif", serif;
+  color: #000000;
+}
+
 /*media 555px wide*/
 @media (min-width: 555px){
   .media-holder {
